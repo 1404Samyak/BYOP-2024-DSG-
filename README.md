@@ -1,5 +1,4 @@
-# BYOP-2024-DSG-
-Contains the Python Code(along with readme file) and the csv file of the dataset used for my content based music recommender model
+# BYOP-2024-DSG-(Explanations of the Code)
 Import necessary libraries, including pandas for data manipulation, TfidfVectorizer for text feature extraction, and linear_kernel for calculating cosine similarity.
 Create a new column in the DataFrame called 'content'. Combine the 'Title', 'Artist', and 'Top Genre' features into a single string for each song using the apply (LAMBDA)function.
 Use the TF-IDF Vectorizer to convert the content strings into a numerical format (TF-IDF matrix). This matrix represents the importance of words in each content string.
